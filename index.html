@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>My Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-width">
+      <nav id="top-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#favorite">FAVORITE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </header>
+
+<!-- メインコンテンツ　-->
+    <div id="main">
+        <img src="img/top-baner.jpg" id="top-baner">
+
+      <!-- profile -->
+      <section id="profile" class="site-width">
+        <div class="circle-image"></div>
+        <h1 class="title">PROFILE</h1>
+        <p>
+          元サッカーコーチ。
+          30歳になり新しい挑戦をしたくてコーチの職から距離を置くことを決意。
+          IT系の業界に興味があり、WEB制作の勉強をはじめる。
+          「知らないことを知れたときって最高に楽しい！」がモットーです。
+          現在ポートフォリオの制作に取り掛かり中。
+          主に触れている言語は、HTML、CSS、Javasqript、jQuery、PHP。
+          興味がある言語はPythonとGo。
+        </p>
+
+        <a class="btn twitter" href="#">
+        <i class="fab fa-twitter"></i>
+        Twitterやってます！
+      </a>
+      </section>
+      <!-- FAVORITE -->
+      <section id="favorite" class="site-width">
+        <h1 class="title">FAVORITE</h1>
+        <section class="panel">
+          <h2>サッカー</h2>
+          <div class="panel-image soccer"></div>
+          <p>サッカーと関わって18年。見るのもやるのも大好きです。週に1度フットサルをやってます。一緒にボール蹴れるとうれしいです！現在、好きな選手はアザール。</p>
+        </section>
+        <section class="panel">
+          <h2>アニメ</h2>
+          <div class="panel-image anime"></div>
+          <p>これまで見たアニメのタイトルは250作品以上。おすすめランキングに載っているアニメの上位は見ています。最近ハマったアニメは「シュタインズ・ゲート ゼロ」</p>
+        </section>
+          <section class="panel">
+            <h2>コブクロ</h2>
+            <div class="panel-image kobukuro"></div>
+            <p>コブクファン歴15年。ほぼ毎年ライブに行ってます。好きな曲は「桜」「蕾」「未来」。好きなライブツアーは2016年の「TIMELESS WORLD」</p>
+          </section>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="site-width">
+        <h1 class="title">CONTACT</h2>
+          <form class="" action="index.html" method="post">
+            <input type="text" placeholder="email" name="email" >
+            <br>
+            <textarea name="comment" rows="10" cols="100" placeholder="内容"></textarea>
+            <br>
+            <input type="submit" name="submit" value="送信">
+          </form>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      Copyright <a href="index.html">Naga Ryo</a> All Rights Reserved.
+    </footer>
+
+  </body>
+</html>

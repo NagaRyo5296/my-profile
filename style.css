@@ -1,0 +1,173 @@
+body{
+  color: #444;
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+a {
+  text-decoration: none;
+}
+
+/*ヘッダー部分*/
+header{
+  margin-bottom: 15px;
+  height: 200px;
+}
+/*ホーム画像*/
+#main{
+  text-align: center;
+}
+#top-baner{
+  width: 980px;
+  height: 300px;
+}
+/*ナビゲーション*/
+#top-nav{
+  float: right;
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+
+nav a{
+  padding: 10px 15px;
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+#top-nav ul{
+  height: 40px;
+  width: 450px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  list-style: none;
+}
+#top-nav ul li{
+  float: left;
+}
+
+/*コンテンツ横幅*/
+.site-width{
+  width: 980px;
+  margin: 0 auto;
+}
+
+section h1.title{
+  font-family: 'Montserrat' , sans-serif;
+  text-align: center;
+}
+#profile, #favorite, #contact{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.circle-image {
+  margin: 0 auto;
+  background-image: url("img/profile.jpg");
+  width:  300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size:cover;
+  background-position: center center;
+}
+.twitter{
+  color: #55acee;
+}
+.twitter:hover{
+  text-decoration: underline;
+}
+/*パネル*/
+.panel{
+  background: #f6f5f5;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin: 0 15px;
+  padding: 15px;
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 480px;
+}
+.panel h2{
+  color: #333;
+  text-align: center;
+}
+.soccer{
+  background-image: url(img/soccer.jpg);
+}
+.anime{
+  background-image: url(img/anime.jpg);
+}
+.kobukuro{
+  background-image: url(img/kobukuro.jpg);
+}
+.panel-image{
+  margin: 0 auto;
+  width:  250px;
+  height: 350px;
+  border-radius: 3%;
+  background-size:cover;
+  background-position: center center;
+}
+
+#favorite{
+  overflow: hidden;
+}
+
+
+/*contact*/
+#contact{
+  margin-bottom: 150px;
+}
+
+/*フォーム*/
+form{
+  width: 50%;
+  margin: 0 auto;
+}
+input, textarea{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+input[type="text"]{
+  width: 100%;
+  height: 60px;
+  border: none;
+  background: #f6f5f5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+textarea{
+  width: 100%;
+  height: 400px;
+  border: none;
+  background: #f6f5f5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+input[type="submit"]{
+  background: #333;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  float: right;
+}
+
+footer{
+  font-size:  12px;
+  margin-top: 30px;
+  padding: 15px;
+  background: #333;
+  text-align: center;
+  color: #6f5f5f;
+}
+footer a{
+  color: #6f5f5f;
+}
